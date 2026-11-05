@@ -152,7 +152,11 @@ activemq-data/
 # Environments
 .env
 .envrc
-.venv
+.venv/
+data/raw/*
+!data/raw/README.md
+data/processed/
+db/*.db
 env/
 venv/
 ENV/
